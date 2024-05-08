@@ -36,7 +36,7 @@ def mmol_to_mg(mmol, molar_mass=32):
     Returns:
     float: The equivalent quantity in milligrams.
     """
-    mg = mmol * molar_mass# * 0.001
+    mg = mmol * molar_mass
     return mg
 
 
